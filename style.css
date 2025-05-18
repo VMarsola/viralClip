@@ -1,13 +1,31 @@
-*{
-    margin: 0;
-    padding: 0;
-    color: #fff;
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
 }
 
-body{
-    background: #0F0F11;
+body {
+  background: #0f0f11;
 }
 
-.logo{
-    margin-left: 18px;
+.logo {
+  margin-left: 18px;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  text-align: center;
+
+  margin-top: 11.1rem;
+}
+
+.gradient {
+  background: #a64eff;
+  background: linear-gradient(
+    90deg,
+    rgba(166, 78, 255, 1) 0%,
+    rgba(79, 134, 255, 1) 43%
+  );
 }
