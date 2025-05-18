@@ -22,10 +22,17 @@ body {
 }
 
 .gradient {
-  background: #a64eff;
-  background: linear-gradient(
-    90deg,
-    rgba(166, 78, 255, 1) 0%,
-    rgba(79, 134, 255, 1) 43%
-  );
+  background: linear-gradient(90deg,
+      rgba(166, 78, 255, 1) 0%,
+      rgba(79, 134, 255, 1) 43%);
+}
+
+.sub-title {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #9CA0A8;
+  text-align: center;
+
+  margin-top: 22px;
+
 }
