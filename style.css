@@ -22,11 +22,9 @@ body {
 }
 
 .gradient {
-  background: linear-gradient(
-    90deg,
-    rgba(166, 78, 255, 1) 0%,
-    rgba(79, 134, 255, 1) 43%
-  );
+  background: linear-gradient(90deg,
+      rgba(166, 78, 255, 1) 0%,
+      rgba(79, 134, 255, 1) 43%);
 }
 
 .sub-title {
@@ -38,13 +36,6 @@ body {
   margin-top: 22px;
 }
 
-.home-card {
-  width: 203px;
-  height: 129px;
-  background: #d9d9d9;
-  opacity: 20%;
-}
-
 .card-icon {
   display: block;
   margin: 0 auto;
@@ -52,4 +43,87 @@ body {
 
 .card-icon svg {
   background-color: #fff;
+}
+
+.camera-card {
+  width: 203px;
+  height: 140px;
+  background: #d9d9d9;
+  opacity: 20%;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 5px;
+
+  margin: 0 auto;
+}
+
+.about-camera {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  color: #9CA0A8;
+  text-align: center;
+}
+
+.description-camera {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #9CA0A8;
+  text-align: center;
+
+}
+
+.scissor-card {
+  width: 203px;
+  height: 129px;
+  background: #d9d9d9;
+  opacity: 20%;
+  margin: 0 auto;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.about-scissor {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  color: #9CA0A8;
+  text-align: center;
+}
+
+.description-scissor {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #9CA0A8;
+  text-align: center;
+}
+
+.share-card {
+  width: 203px;
+  height: 129px;
+  background: #d9d9d9;
+  opacity: 20%;
+  margin: 0 auto;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.about-share {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  color: #9CA0A8;
+  text-align: center;
+}
+
+.description-share {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #9CA0A8;
+  text-align: center;
 }
