@@ -22,11 +22,9 @@ body {
 }
 
 .gradient {
-  background: linear-gradient(
-    90deg,
-    rgba(166, 78, 255, 1) 0%,
-    rgba(79, 134, 255, 1) 43%
-  );
+  background: linear-gradient(90deg,
+      rgba(166, 78, 255, 1) 0%,
+      rgba(79, 134, 255, 1) 43%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -79,4 +77,19 @@ body {
   line-height: 18px;
   color: #9ca0a8;
   text-align: center;
+}
+
+.btn-primary {
+  width: 200px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background: #9D4EDD;
+  border-radius: 6px;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+
 }
