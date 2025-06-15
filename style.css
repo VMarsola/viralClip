@@ -23,11 +23,9 @@ body {
 }
 
 .gradient {
-  background: linear-gradient(
-    90deg,
-    rgba(166, 78, 255, 1) 0%,
-    rgba(79, 134, 255, 1) 43%
-  );
+  background: linear-gradient(90deg,
+      rgba(166, 78, 255, 1) 0%,
+      rgba(79, 134, 255, 1) 43%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -120,3 +118,16 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.input-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 15px;
+  color: #9CA0A8;
+
+}
+
+.input-sub-title {}
