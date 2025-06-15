@@ -27,6 +27,8 @@ body {
     rgba(166, 78, 255, 1) 0%,
     rgba(79, 134, 255, 1) 43%
   );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .sub-title {
